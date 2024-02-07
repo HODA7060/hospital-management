@@ -1,0 +1,151 @@
+body {
+	background:url('image/cover.jpg');
+	background-size: cover;
+	background-attachment: fixed;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 100vh;
+	flex-direction: column;
+	
+}
+
+*{
+	font-family: sans-serif;
+	box-sizing: border-box;
+}
+
+form {
+	width: 500px;
+	padding: 5px;
+	border-radius: 15px;
+	opacity: .7;
+	box-shadow: 0 0 19px #bcf6f6;
+	margin-top: 60px;
+}
+
+h2 {
+	text-align: center;
+	margin-bottom: 10px;
+}
+
+input {
+	display: block;
+	border: 1px solid #93d6d0;
+	width: 95%;
+	padding: 9px;
+	margin: 4px auto;
+	border-radius: 8px;
+	text-align: center;
+	color: #93d6d0;
+}
+
+input:hover{
+	background: #dcf6f3;
+}
+label {
+	color: #2d3837;
+	font-size: 13px;
+	padding: 10px;
+}
+
+form button {
+	float: right;
+	padding: 4px 6px;
+	color: #161616;
+	border-radius: 8px;
+	margin-right: 10px;
+	border: 2px solid #7cb0ad;
+}
+form button:hover{
+	opacity: .7;
+    background-color:  #93d6d0;
+}
+
+form .ca{
+	text-decoration: none;
+	color: #2d3837;
+}
+.error {
+   background: #F2DEDE;
+   color: #A94442;
+   padding: 10px;
+   width: 95%;
+   border-radius: 5px;
+   margin: 20px auto;
+}
+.h1{
+	color:#2e4847 ;
+	margin-bottom: 300px;
+	font-family: sans-serif;
+	font-style: italic;
+	box-shadow: 0 0 10px #bcf6f6;
+	border-radius: 10px;
+}
+
+form a{
+	float: left;
+	padding: 5px 6px;
+	color: #161616;
+	margin-right: 10px;
+	text-decoration:none;
+	font-size: 13px;
+}
+form a:hover{
+	background-color: #93d6d0;
+}
+
+table{
+	width: 80%;
+}
+th{
+	margin: 50px;
+	padding: 10px;
+	color:#2f3736 ;
+}
+td{
+	text-align: center;
+	margin: 10px;
+	color: #161616;
+}
+td a{
+	float: right;
+        padding: 5px 6px;
+        color: #161616;
+        border-radius: 5px;
+        margin-right: 10px;
+        border: 2px solid #93d6d0;
+        text-decoration:none;
+        font-size: 13px;
+}
+td a:hover{
+	opacity: .7;
+        background-color: #dcf6f3;
+}
+
+p a {
+	float: right;
+	padding: 5px 7px;
+	color: #161616;
+	border-radius: 8px;
+	margin-right: 10px;
+	border: 2px solid #7cb0ad;
+	text-decoration: none;
+}
+p a:hover{
+	opacity: .7;
+    background-color:  #93d6d0;
+}
+.nav1 button a{
+	float: right;
+	padding: 4px 6px;
+	color: #161616;
+	border-radius: 11px;
+	margin-right: 10px;
+	border: 2px solid #7cb0ad;
+	text-decoration: none;
+}
+.nav1 button a:hover{
+	opacity: .7;
+    background-color:  #93d6d0;
+}

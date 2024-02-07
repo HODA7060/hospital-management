@@ -1,0 +1,26 @@
+create database cabinetmedical;
+use cabinetmedical;
+create table utilisateur(
+num_util int primary key auto_increment,
+nom_util char(15) not null,
+prenom_util char(15) not null,
+tel_util char(14) not null,
+email_util char(50) not null,
+pass_util char520));
+
+create table secretaire(
+num_secrt int primary key auto_increment,
+prenom_secrt char(15) not null,
+email_secrt char35) not null,
+password_secrt char(20) not null));
+
+create table rendezvous(
+num_rend int primary key auto_increment,
+date_rend datestamp not null,
+heure_rend timestamp not null,
+foreign key(num_util) references utilisateur(num_util),
+foreign key(num_secrt) references secretaire(num_secrt));
+
+
+password admin 123 
+email secretaire2@gmail.com

@@ -1,0 +1,38 @@
+body{
+	background-image: url('image/admin.png');
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-size: cover;
+}
+
+input{
+	margin: 10px;
+	padding: 10px;
+	color: gray;
+	border: 2px solid #93d6d0;
+	width: 300px;
+	text-align: center;
+	opacity: .6;
+	background-color: none;
+	border-radius: 10px;
+	
+}
+button{
+  margin-left: 50px;
+  padding: 9px 12px;
+  color: gray;
+  border-radius: 7px;
+  border: 2px solid #93d6d0;
+  margin-left: 120px;
+}
+button:hover{
+	opacity: .7;
+    background-color: #dcf6f3;
+}
+form{
+	width: 230px;
+	height: 180px;
+	position: relative;
+	top: 250px;
+	left: 500px;
+}

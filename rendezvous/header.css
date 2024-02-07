@@ -1,0 +1,61 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700&display=swap');
+:root{
+    --fontcolor:#43b9dc;
+    --backgroundcolor:#34d3b4;
+}
+.header{
+position: fixed;
+top: 0;
+left: 0;
+right: 0;
+padding: 2rem 7%;
+display: flex;
+justify-content: space-between;
+align-items: center;
+background:white;
+box-shadow: 0 1rem 1rem rgb(0, 0, 0, .1);
+z-index: 10000000;
+}
+.header #logo{
+font-size: 3rem;
+color: black;
+}
+.header #logo span{
+color: var(--fontcolor);
+}
+.header .navbar{
+    margin-left: 10px;
+    display: flex;
+    justify-content: space-evenly;
+}
+.header .navbar a{
+
+font-size: 14px;
+color: var(--fontcolor);
+margin-left: 20px;
+text-decoration: none;
+}
+.icons i{
+font-size: 2rem;
+color: var(--fontcolor);
+margin-left: 1rem;
+}
+.header #menu_bars{
+font-size: 2rem;
+color: var(--fontcolor);
+display: none;
+}
+.header .navbar.active{
+left: 0;
+transition: .5s;
+}
+
+.main-image{
+    
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    margin-top: 75px;
+    height: 100vh;
+}
